@@ -10,18 +10,18 @@
 - Axios
 
 # Passo a Passo
-* Requisitos 
+<h3> Requisitos </h3> 
 - Nodejs instalado globalmente na maquina
 - Docker instalado globalmente na maquina
 
-* Clone
+<h3> Clone </h4> 
 - git clone <url-projeto>
 
-* Front
+<h3> Front </h3> 
 - execute npm i -l para instalar todas as dependencias 
-* Api 
+<h3> Api </h3> 
 - execute npm i -l para instalar todas as dependencias
 
 # Execução
-* Execute o docker em ambas aplicações
+<h3> Execute o docker em ambas aplicações </h3> 
 - npm run up
