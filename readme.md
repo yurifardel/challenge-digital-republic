@@ -15,7 +15,7 @@
 - Docker instalado globalmente na maquina
 
 <h3> Clone </h4> 
-- git clone <url-projeto>
+- git clone url-projeto
 
 <h3> Front </h3> 
 - execute npm i -l para instalar todas as dependencias 
