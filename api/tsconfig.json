@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "es2019",
+
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@/*": ["*"]
+    },
+
+    "strict": true,
+    "baseUrl": "src",
+    "skipLibCheck": true,
+    "typeRoots": ["./src/*/**"],
+
+  },
+  "include": ["src"],
+}

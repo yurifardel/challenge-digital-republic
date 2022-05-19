@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build: .
+    container_name: react-front-container
+    restart: always
+    command: npm start
+    volumes:
+      - ./package.json:/usr/src/app/package.json
+    ports:
+    - "3000:3000"

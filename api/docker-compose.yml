@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: node-api-container
+    restart: always
+    command: npm start
+    volumes:
+      - .:/usr/src/app/dist/
+      - ./package.json:/usr/src/app/package.json
+    ports:
+    - "5050:5050"
+    - "9222:9222"
