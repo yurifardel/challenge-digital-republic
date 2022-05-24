@@ -25,3 +25,4 @@
 # Execução
 <h3> Execute o docker em ambas aplicações </h3> 
 - npm run up
+- acesse http://localhost:3000/
