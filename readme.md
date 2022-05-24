@@ -11,7 +11,7 @@
 
 # Passo a Passo
 <h3> Requisitos </h3> 
-- Nodejs instalado globalmente na maquina
+- Nodejs instalado globalmente na maquina</br>
 - Docker instalado globalmente na maquina
 
 <h3> Clone </h4> 
@@ -24,5 +24,5 @@
 
 # Execução
 <h3> Execute o docker em ambas aplicações </h3> 
-- npm run up
+- npm run up</br>
 - acesse http://localhost:3000/
